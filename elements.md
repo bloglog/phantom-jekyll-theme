@@ -2,7 +2,7 @@
 layout: page
 title: Elements
 ---
-<section class="subtiles">
+<section class="tiles">
 {% for category in site.data.category_list %}
 {% capture category_name %}{{ category | first }}{% endcapture %}
 {% assign page_category = site.data.category_list[category_name] %}
