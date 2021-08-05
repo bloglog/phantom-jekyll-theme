@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Home|Olymplex
+title: Home | Olymplex
 ---
 
 <header>
