@@ -155,6 +155,7 @@
 				> .image:before {
 					background-color: _palette(accent5);
 				}
+				
 			}
 
 			&.style6 {
@@ -179,7 +180,7 @@
 					}
 
 					.content {
-						max-height: 40em;
+						max-height: 15em;
 						opacity: 1;
 					}
 				}
@@ -200,7 +201,7 @@
 		body.is-touch & {
 			article {
 				.content {
-					max-height: 40em;
+					max-height: 15em;
 					opacity: 1;
 				}
 			}
