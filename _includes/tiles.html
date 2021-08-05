@@ -7,7 +7,7 @@
 		<span class="image">
 			<img src="{{ site.url }}{{ site.baseurl }}/images/pic05.jpg" alt="" />
 		</span>
-		<a href="{{ page_category.url | prepend:site.baseurl | prepend:site.url }}">
+		<a href="{{ site.baseurl }}/{{ category_name | slugify }}">
 			<h2>{{ page_category.name }}</h2>
 			<div class="content">
 				<p>{{ page_category.description }}</p>
