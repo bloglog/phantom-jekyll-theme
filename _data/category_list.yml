@@ -1,7 +1,14 @@
 Category 1:
-  name: Example Post
+  name: Example Category
   description: International Mathematical Olympiad
 Category 2:
-  name: Example Post2
+  name: Example Category2
   description: This is an Example post
+Category 3:
+  name: Example Category3
+Category 4:
+  name: Example Category4
+  description: Hi!
+Category 5:
+  name: Example Category5
   
