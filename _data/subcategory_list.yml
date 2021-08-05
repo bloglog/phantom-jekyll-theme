@@ -1,0 +1,6 @@
+Algebra:
+  name: Algebra
+  parent-category: Category1
+Combinatorics:
+  name: Combinatorics
+  parent-category: Category2
