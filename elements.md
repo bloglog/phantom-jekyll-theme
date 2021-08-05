@@ -2,6 +2,24 @@
 layout: page
 title: Elements
 ---
+<section class="tiles">
+{% for category in site.data.category_list %}
+{% capture category_name %}{{ category | first }}{% endcapture %}
+{% assign page_category = site.data.category_list[category_name] %}
+	<article class="style{{ forloop.index | plus:1 }}">
+		<span class="image">
+			<img src="{{ site.url }}{{ site.baseurl }}/images/pic05.jpg" alt="" />
+		</span>
+		<a href="{{ site.baseurl }}/{{ page_category.name | slugify }}">
+			<h2>{{ page_category.name }}</h2>
+			<div class="content">
+				<p>{{ page_category.description }}</p>
+			</div>
+		</a>
+	</article>
+{% endfor %}
+
+</section>
 
 <section>
 <h2>Text</h2>
