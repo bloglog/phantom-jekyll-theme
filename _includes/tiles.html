@@ -1,14 +1,16 @@
 <section class="tiles">
 
 {% for category in site.data.category_list %}
+{% capture category_name %}{{ category | first }}{% endcapture %}
+{% assign page_category = site.data.category_list[category_name] %}
 	<article class="style{{ forloop.index | plus:1 }}">
 		<span class="image">
 			<img src="{{ site.url }}{{ site.baseurl }}/images/pic05.jpg" alt="" />
 		</span>
-		<a href="{{ category.url | prepend:site.baseurl | prepend:site.url }}">
-			<h2>{{ category.title }}</h2>
+		<a href="{{ page_category.url | prepend:site.baseurl | prepend:site.url }}">
+			<h2>{{ page_category.name }}</h2>
 			<div class="content">
-				<p>{{ category.description }}</p>
+				<p>{{ page_category.description }}</p>
 			</div>
 		</a>
 	</article>
