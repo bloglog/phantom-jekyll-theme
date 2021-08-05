@@ -1,6 +1,11 @@
 Category 1:
   name: Example Category
   description: International Mathematical Olympiad
+  subcategory:
+    - Algebra
+    - Combinatorics
+    - Geometry
+    - Number-Theory
 Category 2:
   name: Example Category2
   description: This is an Example post
