@@ -1,32 +1,28 @@
 Topic1:
-  name: Regularity and Induction
+  name: Equations and Formulae
 Topic2:
-  name: Binomial Coefficient
+  name: Rational and Irrational Numbers
 Topic3:
-  name: Counting and Double Counting
+  name: Polynomials
 Topic4:
-  name: Recurrence Relationships
+  name: Mean and Cauchy Inequalities
 Topic5:
-  name: Sets and Progressions
+  name: Theorems in Inequality
 Topic6:
-  name: Basic Graph Theory
+  name: Techniques in Inequality
 Topic7:
-  name: Techniques in Graph Theory
+  name: Multivariate Inequalities
 Topic8:
-  name: Advanced Graph Theory
+  name: Set and Sequences
 Topic9:
-  name: Pigeon Hole and Extremal Principle
+  name: Basic Functional Equations
 Topic10:
- name: Game Theory and Winning Strategies
+ name: Techniques in Functional Equation
 Topic11:
-  name: Combinatorial Geometry
+  name: Applications of Functional Equation
 Topic12:
-  name: Coloring and Tiling
+  name: Advanced Functional Equations
 Topic13:
-  name: Invariants and Monotonic Values
+  name: Miscellaneous Algebra
 Topic14:
-  name: Advanced Techniques in Combinatorics
-Topic15:
-  name: Miscellaneous Combinatorics
-Topic16:
-  name: Combinatorics Finals
+  name: Algebra Finals
