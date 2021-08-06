@@ -149,10 +149,10 @@
 						@include vendor('transform', 'scale(1.1)');
 						&:before {
 							background-color: _palette(accent3);
-							opacity: 1;
+							opacity: 0.3;
 						}
 						&:after {
-							opacity: 1;
+							opacity: 0;
 						}
 					}
 					.content {
