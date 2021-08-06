@@ -1,9 +1,12 @@
 Algebra:
   name: Algebra
   parent-category: example-category
+  color: 1
 Combinatorics:
   name: Combinatorics
   parent-category: example-category
+  color: 3
 Contests:
   name: Contests
   parent-category: example-category2
+  color: 2
