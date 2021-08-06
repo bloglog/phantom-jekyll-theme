@@ -5,9 +5,6 @@
         {% assign page_subcategory = site.data.subcategory_list[subcategory_name] %}
           {% if page_subcategory.parent-category == page.category %}
           <article class="style{{ forloop.index | plus:1}}">
-		  <span class="image">
-			<img src="{{ site.url }}{{ site.baseurl }}/images/pic05.jpg" alt="" />
-		</span>
 		<a href="{{ site.baseurl }}/{{ page.category }}/{{ page_subcategory.name | slugify }}">
 			<h2>{{ page_subcategory.name }}</h2>
 		</a>
