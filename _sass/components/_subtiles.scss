@@ -147,8 +147,13 @@
 			}
 			body:not(.is-touch) & {
 				&:hover {
-					@include vendor('transform', 'scale(1.1)');
-					opacity: 1;
+					> .image {
+						@include vendor('transform', 'scale(1.04)');
+						opacity: 1;
+					}
+					.content {
+						max-height: 10em;
+						opacity: 1;
 				}
 			}
 		}
