@@ -146,9 +146,8 @@
 			body:not(.is-touch) & {
 				&:hover {
 					> .image {
-						@include vendor('transform', 'scale(1.05)');
+						@include vendor('transform', 'scale(1.01)');
 						&:before {
-							background-color: _palette(bg-accent);
 							opacity: 0;
 						}
 						&:after {
