@@ -1,0 +1,13 @@
+---
+layout: default
+title: Combinatorics | Olymplex
+date: 2021-08-16 12:00:00 -0400
+permalink: /example-category/combinatorics/
+---
+{% for topic in site.data.Combinatorics_topic_list %}
+{% capture topic_name %}{{ topic | first }}{% endcapture %}
+{% assign page_topic = site.data.category_list[category_name] %}
+  <ul class="actions fit big">
+  <li><a href="{{ site.baseurl }}{{ page.permalink}}Olym-{{ forloop.index | plus:1}}C" class="button fit big">{{ page_topic.name }}</a></li>
+  </ul>
+{% endfor %}
