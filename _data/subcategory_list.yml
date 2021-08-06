@@ -6,6 +6,10 @@ Combinatorics:
   name: Combinatorics
   parent-category: example-category
   color: 3
+Geometry:
+  name: Geometry
+  parent-category: example-category
+  color: 4
 Contests:
   name: Contests
   parent-category: example-category2
