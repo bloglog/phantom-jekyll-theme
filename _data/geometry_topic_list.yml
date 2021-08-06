@@ -1,29 +1,29 @@
 Topic1:
-  name: Regularity and Induction
+  name: Angle Chasing
 Topic2:
-  name: Binomial Coefficient
+  name: Circles and Concyclic
 Topic3:
-  name: Counting and Double Counting
+  name: Similarity
 Topic4:
-  name: Recurrence Relationships
+  name: Special Points in Geometry
 Topic5:
-  name: Sets and Progressions
+  name: Computational Geometry
 Topic6:
-  name: Basic Graph Theory
+  name: Isogonal Conjugate
 Topic7:
-  name: Techniques in Graph Theory
+  name: Lemmas in Geometry I
 Topic8:
-  name: Advanced Graph Theory
+  name: Lemmas in Geometry II
 Topic9:
-  name: Pigeon Hole and Extremal Principle
+  name: Collinear and Concurrent
 Topic10:
- name: Game Theory and Winning Strategies
+ name: Projective Geometry
 Topic11:
-  name: Combinatorial Geometry
+  name: Area of the Figure
 Topic12:
-  name: Coloring and Tiling
+  name: Geometric Inequality
 Topic13:
-  name: Invariants and Monotonic Values
+  name: Inversion
 Topic14:
   name: Advanced Techniques in Combinatorics
 Topic15:
