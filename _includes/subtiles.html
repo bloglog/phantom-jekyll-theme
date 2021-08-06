@@ -11,7 +11,8 @@
 		<a href="{{ site.baseurl }}/{{ page_subcategory.name | slugify }}">
 			<h2>{{ page_subcategory.name }}</h2>
 		</a>
-	</article>
-{% endfor %}
-
+	  </article>
+	  {% endif %}
+	{% endfor %}
+{% endif %}
 </section>
