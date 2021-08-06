@@ -10,6 +10,10 @@ Geometry:
   name: Geometry
   parent-category: example-category
   color: 4
+Number-Theory:
+  name: Number Theory
+  parent-category: example-category
+  color: 6
 Contests:
   name: Contests
   parent-category: example-category2
