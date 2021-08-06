@@ -31,7 +31,7 @@
 		line-height: 3.45em;
 		overflow: hidden;
 		padding: 0 1.25em 0 #{1.25em + _font(letter-spacing)};
-		text-align: center;
+		text-align: left;
 		text-decoration: none;
 		text-overflow: ellipsis;
 		text-transform: uppercase;
@@ -41,6 +41,10 @@
 			&:before {
 				margin-right: 0.5em;
 			}
+		}
+		
+		&.center {
+			text-align: center;
 		}
 
 		&.fit {
@@ -64,6 +68,7 @@
 
 		&.big {
 			font-size: 5em;
+			height: 6em;
 		}
 
 		&.special {
