@@ -1,0 +1,13 @@
+---
+layout: default
+title: Geometry | Olymplex
+date: 2021-08-16 12:00:00 -0400
+permalink: /example-category/geometry/
+---
+{% for topic in site.data.geometry_topic_list %}
+{% capture topic_name %}{{ topic | first }}{% endcapture %}
+{% assign page_topic = site.data.geometry_topic_list[topic_name] %}
+  <ul class="actions fit big">
+  <li><a href="{{ site.baseurl }}{{ page.permalink}}Olym-{{ forloop.index | plus:0 }}G" class="button fit big">Olym {{ forloop.index | plus:0 }}G. {{ page_topic.name }}</a></li>
+  </ul>
+{% endfor %}
