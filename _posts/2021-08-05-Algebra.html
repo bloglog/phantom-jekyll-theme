@@ -10,6 +10,6 @@ permalink: /example-category/algebra/
 {% capture topic_name %}{{ topic | first }}{% endcapture %}
 {% assign page_topic = site.data.algebra_topic_list[topic_name] %}
   <ul class="actions fit big">
-  <li><a href="{{ site.baseurl }}{{ page.permalink}}Olym-{{ forloop.index | plus:0 }}A" class="button fit big">Olym {{ forloop.index | plus:0 }}A. {{ page_topic.name }}</a></li>
+  <li><a href="{{ site.baseurl }}{{ page.permalink}}olym-{{ forloop.index | plus:0 }}a" class="button fit big">Olym {{ forloop.index | plus:0 }}A. {{ page_topic.name }}</a></li>
   </ul>
 {% endfor %}
