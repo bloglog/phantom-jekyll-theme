@@ -1,10 +1,9 @@
 Algebra:
   name: Algebra
-  parent-category: Example Category
+  parent-category: example-category
 Combinatorics:
   name: Combinatorics
-  parent-category: Example Category
-
+  parent-category: example-category
 Contests:
   name: Contests
-  parent-category: Example Category2
+  parent-category: example-category2
