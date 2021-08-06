@@ -4,7 +4,8 @@
         {% capture subcategory_name %}{{ subcategory | first }}{% endcapture %}
         {% assign page_subcategory = site.data.subcategory_list[subcategory_name] %}
           {% if page_subcategory.parent-category == page.category %}
-          <article class="style{{ forloop.index | plus:1}}">
+          <article class="style{{ page_subcategory.color | plus:0}}">
+		  
 		  <span class="image invisible">
 			<img src="{{ site.url }}{{ site.baseurl }}/images/pic01.jpg" alt="" />
 		</span>
