@@ -114,13 +114,13 @@
 				}
 			}
 			&.style1 {
-				$style_num=1;
+				$style_num: 1;
 				> .image:before {
 					background-color: _palette(accent1);
 				}
 			}
 			&.style2 {
-				$style_num=2;
+				$style_num: 2;
 				> .image {
 					background-color: _palette(accent2);
 				}
