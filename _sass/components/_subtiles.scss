@@ -147,6 +147,7 @@
 			}
 			body:not(.is-touch) & {
 				&:hover {
+					@include vendor('transform', 'scale(1.1)');
 					opacity: 1;
 				}
 			}
