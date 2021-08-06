@@ -1,32 +1,28 @@
 Topic1:
-  name: Regularity and Induction
+  name: Divisibility
 Topic2:
-  name: Binomial Coefficient
+  name: Primes and Composites
 Topic3:
-  name: Counting and Double Counting
+  name: Congruences
 Topic4:
-  name: Recurrence Relationships
+  name: Modular Arithmetic
 Topic5:
-  name: Sets and Progressions
+  name: Primitive Roots and Quadratic Residue
 Topic6:
-  name: Basic Graph Theory
+  name: Diophantine Equations
 Topic7:
-  name: Techniques in Graph Theory
+  name: Power of an Integer
 Topic8:
-  name: Advanced Graph Theory
+  name: Advanced Number Theory I
 Topic9:
-  name: Pigeon Hole and Extremal Principle
+  name: Advanced Number Theory II
 Topic10:
- name: Game Theory and Winning Strategies
+ name: Functions and Polynomials in NT
 Topic11:
-  name: Combinatorial Geometry
+  name: Sequences of Integers
 Topic12:
-  name: Coloring and Tiling
+  name: Combinatorial Number Theory
 Topic13:
-  name: Invariants and Monotonic Values
+  name: Miscellaneous Number Theory
 Topic14:
-  name: Advanced Techniques in Combinatorics
-Topic15:
-  name: Miscellaneous Combinatorics
-Topic16:
-  name: Combinatorics Finals
+  name: Number Theory Finals
