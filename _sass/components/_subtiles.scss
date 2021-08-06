@@ -150,7 +150,7 @@
 					> .image {
 						@include vendor('transform', 'scale(1.1)');
 						&:before {
-							background-color: _palette(accent{{ $style_num }});
+							background-color: _palette(accent1);
 							opacity: 0.3;
 						}
 						&:after {
