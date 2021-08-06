@@ -16,7 +16,7 @@
 			border-radius: _size(border-radius);
 			display: block;
 		}
-		&invisible {
+		&.invisible {
 			img {
 				opacity: 0;
 			}
