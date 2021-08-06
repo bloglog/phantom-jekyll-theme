@@ -4,45 +4,10 @@ title: Algebra | Olymplex
 date: 2021-08-16 12:00:00 -0400
 permalink: /example-category/algebra/
 ---
-<ul class="actions fit big">
-<li><a href="{{ site.baseurl }}{{ page.permalink}}Lesson-1A" class="button fit big">Equations and Formulae</a></li>
-</ul>
-<ul class="actions fit big">
-<li><a href="{{ site.baseurl }}{{ page.permalink}}Lesson-2A" class="button fit big">Rational and Irrational Numbers</a></li>
-</ul>
-<ul class="actions fit big">
-<li><a href="{{ site.baseurl }}{{ page.permalink}}Lesson-3A" class="button fit big">Polynomials</a></li>
-</ul>
-<ul class="actions fit big">
-<li><a href="{{ site.baseurl }}{{ page.permalink}}Lesson-4A" class="button fit big">Mean and Cauchy Inequalities</a></li>
-</ul>
-<ul class="actions fit big">
-<li><a href="{{ site.baseurl }}{{ page.permalink}}Lesson-5A" class="button fit big">Theorems in Inequalities</a></li>
-</ul>
-<ul class="actions fit big">
-<li><a href="{{ site.baseurl }}{{ page.permalink}}Lesson-6A" class="button fit big">Techniques in Inequalities</a></li>
-</ul>
-<ul class="actions fit big">
-<li><a href="{{ site.baseurl }}{{ page.permalink}}Lesson-7A" class="button fit big">Multivariate Inequalities</a></li>
-</ul>
-<ul class="actions fit big">
-<li><a href="{{ site.baseurl }}{{ page.permalink}}Lesson-8A" class="button fit big">Sets and Sequences</a></li>
-</ul>
-<ul class="actions fit big">
-<li><a href="{{ site.baseurl }}{{ page.permalink}}Lesson-9A" class="button fit big">Basic Functional Equations</a></li>
-</ul>
-<ul class="actions fit big">
-<li><a href="{{ site.baseurl }}{{ page.permalink}}Lesson-10A" class="button fit big">Techniques in Functional Equations</a></li>
-</ul>
-<ul class="actions fit big">
-<li><a href="{{ site.baseurl }}{{ page.permalink}}Lesson-11A" class="button fit big">Applications of Functional Equations</a></li>
-</ul>
-<ul class="actions fit big">
-<li><a href="{{ site.baseurl }}{{ page.permalink}}Lesson-12A" class="button fit big">Advanced Functional Equations</a></li>
-</ul>
-<ul class="actions fit big">
-<li><a href="{{ site.baseurl }}{{ page.permalink}}Lesson-13A" class="button fit big">Miscellaneous Algebra</a></li>
-</ul>
-<ul class="actions fit big">
-<li><a href="{{ site.baseurl }}{{ page.permalink}}Lesson-14A" class="button fit big">Algebra Final</a></li>
-</ul>
+{% for topic in site.data.algebra_topic_list %}
+{% capture topic_name %}{{ topic | first }}{% endcapture %}
+{% assign page_topic = site.data.algebra_topic_list[topic_name] %}
+  <ul class="actions fit big">
+  <li><a href="{{ site.baseurl }}{{ page.permalink}}Olym-{{ forloop.index | plus:0 }}A" class="button fit big">Olym {{ forloop.index | plus:0 }}A. {{ page_topic.name }}</a></li>
+  </ul>
+{% endfor %}
