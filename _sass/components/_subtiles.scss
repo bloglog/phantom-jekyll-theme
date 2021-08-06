@@ -114,11 +114,13 @@
 				}
 			}
 			&.style1 {
-				> .image {
+				$style_num=1;
+				> .image:before {
 					background-color: _palette(accent1);
 				}
 			}
 			&.style2 {
+				$style_num=2;
 				> .image {
 					background-color: _palette(accent2);
 				}
@@ -148,7 +150,7 @@
 					> .image {
 						@include vendor('transform', 'scale(1.1)');
 						&:before {
-							background-color: _palette(accent3);
+							background-color: _palette(accent{{ $style_num }});
 							opacity: 0.3;
 						}
 						&:after {
