@@ -64,7 +64,7 @@
 					background-position: center;
 					background-repeat: no-repeat;
 					background-size: 100% 70%;
-					opacity: 0;
+					opacity: 0.25;
 					z-index: 2;
 				}
 			}
@@ -149,10 +149,10 @@
 						@include vendor('transform', 'scale(1.1)');
 						&:before {
 							background-color: _palette(accent3);
-							opacity: 0;
+							opacity: 1;
 						}
 						&:after {
-							opacity: 0;
+							opacity: 1;
 						}
 					}
 					.content {
@@ -175,7 +175,7 @@
 			article {
 				.content {
 					max-height: 10em;
-					opacity: 0;
+					opacity: 1;
 				}
 			}
 		}
