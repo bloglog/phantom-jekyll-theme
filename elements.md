@@ -36,30 +36,38 @@ This is <u>underlined</u> and this is code: <code>for (;;) { ... }</code>. Final
 <h3>Blockquote</h3>
 <blockquote>Fringilla nisl. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan faucibus. Vestibulum ante ipsum primis in faucibus lorem ipsum dolor sit amet nullam adipiscing eu felis.</blockquote>
 <h3>RedBox</h3>
-text here. text here. text here. text here. text here. 
+text here. text here. text here. text here. text here. text here. 
 <redbox>Fringilla nisl. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan faucibus. Vestibulum ante ipsum primis in faucibus lorem ipsum dolor sit amet nullam adipiscing eu felis.</redbox>
-text here. text here. text here. text here. text here. 
+text here. text here. text here. text here. text here. text here. 
 
 <h3>OrangeBox</h3>
-text here. text here. text here. text here. text here. 
-<orangebox>Fringilla nisl. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan faucibus. Vestibulum ante ipsum primis in faucibus lorem ipsum dolor sit amet nullam adipiscing eu felis.</orangebox> text here. text here. text here. text here. text here. 
+text here. text here. text here. text here. text here. text here. 
+<orangebox>Fringilla nisl. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan faucibus. Vestibulum ante ipsum primis in faucibus lorem ipsum dolor sit amet nullam adipiscing eu felis.</orangebox>
+text here. text here. text here. text here. text here. text here. 
 
 <h3>YellowBox</h3>
-text here. text here. text here. text here. text here. 
-<yellowbox>Fringilla nisl. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan faucibus. Vestibulum ante ipsum primis in faucibus lorem ipsum dolor sit amet nullam adipiscing eu felis.</yellowbox> text here. text here. text here. text here. text here. 
+text here. text here. text here. text here. text here. text here. 
+<yellowbox>Fringilla nisl. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan faucibus. Vestibulum ante ipsum primis in faucibus lorem ipsum dolor sit amet nullam adipiscing eu felis.</yellowbox>
+text here. text here. text here. text here. text here. text here. 
 
 <h3>GreenBox</h3> text here. text here. text here. text here. text here. 
 <greenbox>Fringilla nisl. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan faucibus. Vestibulum ante ipsum primis in faucibus lorem ipsum dolor sit amet nullam adipiscing eu felis.</greenbox> 
-text here. text here. text here. text here. text here. 
+text here. text here. text here. text here. text here. text here. 
 
 <h3>BlueBox</h3>
+text here. text here. text here. text here. text here. text here. 
 <bluebox>Fringilla nisl. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan faucibus. Vestibulum ante ipsum primis in faucibus lorem ipsum dolor sit amet nullam adipiscing eu felis.</bluebox>
+text here. text here. text here. text here. text here. text here. 
 
 <h3>PurpleBox</h3>
+text here. text here. text here. text here. text here. text here. 
 <purplebox>Fringilla nisl. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan faucibus. Vestibulum ante ipsum primis in faucibus lorem ipsum dolor sit amet nullam adipiscing eu felis.</purplebox>
+text here. text here. text here. text here. text here. text here. 
 
 <h3>BlackBox</h3>
+text here. text here. text here. text here. text here. text here. 
 <blackbox>Fringilla nisl. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan faucibus. Vestibulum ante ipsum primis in faucibus lorem ipsum dolor sit amet nullam adipiscing eu felis.</blackbox>
+text here. text here. text here. text here. text here. text here. 
 
 <h3>Preformatted</h3>
 <pre><code>i = 0;
