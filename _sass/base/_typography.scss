@@ -5,6 +5,18 @@
 ///
 
 /* Type */
+.article__content {
+    font-size: map-get($base, font-size-sm);
+    line-height: map-get($base, line-height);
+    @include block-elements() {
+      margin-top: map-get($spacers, 2);
+      margin-bottom: map-get($spacers, 2);
+    }
+    @include heading-elements() {
+      margin-top: map-get($spacers, 3);
+    }
+	    
+	    
 	body, input, select, textarea {
 		color: _palette(fg);
 		font-family: _font(family);
@@ -186,7 +198,8 @@
 	.align-right {
 		text-align: right;
 	}
-	redbox {
+	.article__content {
+	  redbox {
 		background: _palette(red);
 		border-radius: _size(border-radius);
 		border: solid _size(border-width) rgba(#ff0000, .1);
@@ -194,8 +207,8 @@
 		font-size: 0.9em;
 		margin: 0 0.25em;
 		padding: 0.25em 0.65em;
-	}
-	orangebox {
+	  }
+	  orangebox {
 		background: _palette(orange);
 		border-radius: _size(border-radius);
 		border: solid _size(border-width) rgba(#ffa500, .1);
@@ -203,10 +216,13 @@
 		font-size: 0.9em;
 		margin: 0 0.25em;
 		padding: 0.25em 0.65em;
+	  }
+          greenbox {
+              padding: map-get($spacers, 2) map-get($spacers, 3);
+              background-color: rgba(#00ff00, .1);
+              border: 1px solid #00ff00;
+              border-radius: map-get($base, border-radius);
+          }
 	}
-        greenbox {
-                padding: map-get($spacers, 2) map-get($spacers, 3);
-                background-color: rgba(#00ff00, .1);
-                border: 1px solid #00ff00;
-                border-radius: map-get($base, border-radius);
-        }
+	
+		
