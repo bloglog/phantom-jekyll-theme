@@ -5,6 +5,7 @@
 ///
 
 /* Type */
+<<<<<<< HEAD
 .article__content {
     font-size: map-get($base, font-size-sm);
     line-height: map-get($base, line-height);
@@ -18,6 +19,8 @@
 }
 	    
 	    
+=======
+>>>>>>> parent of cbfa0fe (Update _typography.scss)
 	body, input, select, textarea {
 		color: _palette(fg);
 		font-family: _font(family);
@@ -199,8 +202,7 @@
 	.align-right {
 		text-align: right;
 	}
-	.article__content {
-	  redbox {
+	redbox {
 		background: _palette(red);
 		border-radius: _size(border-radius);
 		border: solid _size(border-width) _palette(red);
@@ -208,8 +210,8 @@
 		font-size: 0.9em;
 		margin: 0 0.25em;
 		padding: 0.25em 0.65em;
-	  }
-	  orangebox {
+	}
+	orangebox {
 		background: _palette(orange);
 		border-radius: _size(border-radius);
 		border: solid _size(border-width) _palette(orange);
@@ -217,13 +219,10 @@
 		font-size: 0.9em;
 		margin: 0 0.25em;
 		padding: 0.25em 0.65em;
-	  }
-          greenbox {
-              padding: map-get($spacers, 2) map-get($spacers, 3);
-              background-color: rgba(#00ff00, .1);
-              border: 1px solid #00ff00;
-              border-radius: map-get($base, border-radius);
-          }
 	}
-	
-		
+        greenbox {
+                padding: map-get($spacers, 2) map-get($spacers, 3);
+                background-color: rgba(#00ff00, .1);
+                border: 1px solid #00ff00;
+                border-radius: map-get($base, border-radius);
+        }
