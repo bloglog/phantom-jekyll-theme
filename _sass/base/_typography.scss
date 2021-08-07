@@ -186,13 +186,24 @@
 	.align-right {
 		text-align: right;
 	}
-
-        redbox {
-                padding: map-get($spacers, 2) map-get($spacers, 3);
-                background-color: rgba(#ff0000, .1);
-                border: 1px solid #ff0000;
-                border-radius: map-get($base, border-radius);
-        }
+	redbox {
+		background: _palette(border-bg);
+		border-radius: _size(border-radius);
+		border: solid _size(border-width) _palette(red);
+		font-family: _font(family-fixed);
+		font-size: 0.9em;
+		margin: 0 0.25em;
+		padding: 0.25em 0.65em;
+	}
+	orangebox {
+		background: _palette(border-bg);
+		border-radius: _size(border-radius);
+		border: solid _size(border-width) _palette(orange);
+		font-family: _font(family-fixed);
+		font-size: 0.9em;
+		margin: 0 0.25em;
+		padding: 0.25em 0.65em;
+	}
         greenbox {
                 padding: map-get($spacers, 2) map-get($spacers, 3);
                 background-color: rgba(#00ff00, .1);
