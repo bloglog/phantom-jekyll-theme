@@ -194,7 +194,7 @@
                 border-radius: map-get($base, border-radius);
 		display: block;
 		line-height: 1.75;
-		margin: (_size(element-margin) * 0.5) 0 (_size(element-margin) * 0.5) 0;
+		margin: (_size(element-margin) * 0.4) 0 (_size(element-margin) * 0.4) 0;
 		overflow-x: auto;
         }
         orangebox {
@@ -214,7 +214,7 @@
                 border-radius: map-get($base, border-radius);
 		display: block;
 		line-height: 1.75;
-		margin: (_size(element-margin) * 0.3) 0 (_size(element-margin) * 0.3) 0;
+		margin: (_size(element-margin) * 0.4) 0 (_size(element-margin) * 0.4) 0;
 		overflow-x: auto;
         }
         greenbox {
@@ -224,7 +224,7 @@
                 border-radius: map-get($base, border-radius);
 		display: block;
 		line-height: 1.75;
-		margin: 0 0 1 0rem;
+		margin: (_size(element-margin) * 0.4) 0 (_size(element-margin) * 0.4) 0;
 		overflow-x: auto;
         }
         bluebox {
@@ -234,7 +234,7 @@
                 border-radius: map-get($base, border-radius);
 		display: block;
 		line-height: 1.75;
-		margin: 0 0 1 0rem;
+		margin: (_size(element-margin) * 0.4) 0 (_size(element-margin) * 0.4) 0;
 		overflow-x: auto;
         }
         purplebox {
@@ -244,7 +244,7 @@
                 border-radius: map-get($base, border-radius);
 		display: block;
 		line-height: 1.75;
-		margin: 0 0 1 0rem;
+		margin: (_size(element-margin) * 0.4) 0 (_size(element-margin) * 0.4) 0;
 		overflow-x: auto;
         }
         blackbox {
@@ -254,7 +254,7 @@
                 border-radius: map-get($base, border-radius);
 		display: block;
 		line-height: 1.75;
-		margin: 0 0 1 0rem;
+		margin: (_size(element-margin) * 0.4) 0 (_size(element-margin) * 0.4) 0;
 		overflow-x: auto;
         }
 //		margin: 0 0.25em; 박스 바깥 여백
