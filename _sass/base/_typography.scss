@@ -187,7 +187,7 @@
 		text-align: right;
 	}
 	redbox {
-		background: _palette(border-bg);
+		background: _palette(red);
 		border-radius: _size(border-radius);
 		border: solid _size(border-width) _palette(red);
 		font-family: _font(family-fixed);
@@ -196,7 +196,7 @@
 		padding: 0.25em 0.65em;
 	}
 	orangebox {
-		background: _palette(border-bg);
+		background: _palette(orange);
 		border-radius: _size(border-radius);
 		border: solid _size(border-width) _palette(orange);
 		font-family: _font(family-fixed);
