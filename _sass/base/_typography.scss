@@ -225,8 +225,8 @@
         }
         bluebox {
                 padding: map-get($spacers, 2) map-get($spacers, 3);
-                background-color: rgba(#0000ff, .1);
-                border: 1px solid #0000ff;
+                background-color: rgba(#0088ff, .1);
+                border: 1px solid #0088ff;
                 border-radius: map-get($base, border-radius);
 		display: block;
 		line-height: 1.75;
@@ -234,8 +234,8 @@
         }
         purplebox {
                 padding: map-get($spacers, 2) map-get($spacers, 3);
-                background-color: rgba(#800080, .1);
-                border: 1px solid #800080;
+                background-color: rgba(#ae00ff, .1);
+                border: 1px solid #ae00ff;
                 border-radius: map-get($base, border-radius);
 		display: block;
 		line-height: 1.75;
