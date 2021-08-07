@@ -193,7 +193,6 @@
                 border: 1px solid #ff0000;
                 border-radius: map-get($base, border-radius);
 		display: block;
-		line-height: 1.75;
 		overflow-x: auto;
         }
         orangebox {
@@ -203,7 +202,6 @@
                 border-radius: map-get($base, border-radius);
 		display: block;
 		line-height: 1.75;
-		overflow-x: auto;
         }
         yellowbox {
                 padding: map-get($spacers, 2) map-get($spacers, 3);
