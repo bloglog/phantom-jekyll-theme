@@ -5,7 +5,20 @@
 ///
 
 /* Type */
+// define primer spacer in a more exp
+$primer-spacer: 8px !default; 
 
+// define the spacers variable map. notice the keys from 6-12
+// this avoids conflict or overwriting the bootstrap values
+$spacers: ( 
+   6: 0, 
+   7: round($primer-spacer / 2), 
+   8: $primer-spacer, 
+   9: $primer-spacer * 2, 
+   10: $primer-spacer * 3, 
+   11: $primer-spacer * 4, 
+   12: $primer-spacer * 5 
+ ); 
 	body, input, select, textarea {
 		color: _palette(fg);
 		font-family: _font(family);
@@ -187,3 +200,45 @@
 	.align-right {
 		text-align: right;
 	}
+        redbox {
+                padding: map-get($spacers, 2) map-get($spacers, 3);
+                background-color: rgba($red, .1);
+                border: 1px solid $red;
+                border-radius: map-get($base, border-radius);
+        }
+        orangebox {
+                padding: map-get($spacers, 2) map-get($spacers, 3);
+                background-color: rgba($orange, .1);
+                border: 1px solid $orange;
+                border-radius: map-get($base, border-radius);
+        }
+        yellowbox {
+                padding: map-get($spacers, 2) map-get($spacers, 3);
+                background-color: rgba($yellow, .1);
+                border: 1px solid $yellow;
+                border-radius: map-get($base, border-radius);
+        }
+        greenbox {
+                padding: map-get($spacers, 2) map-get($spacers, 3);
+                background-color: rgba($green, .1);
+                border: 1px solid $green;
+                border-radius: map-get($base, border-radius);
+        }
+        bluebox {
+                padding: map-get($spacers, 2) map-get($spacers, 3);
+                background-color: rgba($blue, .1);
+                border: 1px solid $blue;
+                border-radius: map-get($base, border-radius);
+        }
+        purplebox {
+                padding: map-get($spacers, 2) map-get($spacers, 3);
+                background-color: rgba($purple, .1);
+                border: 1px solid $purple;
+                border-radius: map-get($base, border-radius);
+        }
+        blackbox {
+                padding: map-get($spacers, 2) map-get($spacers, 3);
+                background-color: rgba($black, .1);
+                border: 1px solid $black;
+                border-radius: map-get($base, border-radius);
+        }
