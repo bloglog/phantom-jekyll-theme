@@ -195,6 +195,9 @@
 		font-size: 0.9em;
 		margin: 0 0.25em;
 		padding: 0.25em 0.65em;
+		display: block;
+		line-height: 1.75;
+		overflow-x: auto;
 	}
 	orangebox {
 		background: _palette(orange);
@@ -210,4 +213,7 @@
                 background-color: rgba(#00ff00, .1);
                 border: 1px solid #00ff00;
                 border-radius: map-get($base, border-radius);
+		display: block;
+		line-height: 1.75;
+		overflow-x: auto;
         }
