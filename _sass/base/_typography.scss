@@ -22,6 +22,7 @@
 		}
 	}
 
+// link color
 	a {
 		@include vendor('transition', (
 			'border-bottom-color #{_duration(transition)} ease',
@@ -72,6 +73,7 @@
 		}
 	}
 
+//header style
 	h2, h3, h4, h5, h6 {
 		color: _palette(fg-bold);
 		font-weight: _font(weight-bold);
