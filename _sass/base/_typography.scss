@@ -5,20 +5,6 @@
 ///
 
 /* Type */
-// define primer spacer in a more exp
-$primer-spacer: 8px !default; 
-
-// define the spacers variable map. notice the keys from 6-12
-// this avoids conflict or overwriting the bootstrap values
-$spacers: ( 
-   6: 0, 
-   7: round($primer-spacer / 2), 
-   8: $primer-spacer, 
-   9: $primer-spacer * 2, 
-   10: $primer-spacer * 3, 
-   11: $primer-spacer * 4, 
-   12: $primer-spacer * 5 
- ); 
 	body, input, select, textarea {
 		color: _palette(fg);
 		font-family: _font(family);
