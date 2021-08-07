@@ -192,9 +192,9 @@
                 background-color: rgba(#ff0000, .1);
                 border: 1px solid #ff0000;
                 border-radius: map-get($base, border-radius);
-		margin: 0 2em;
 		display: block;
 		line-height: 1.75;
+		margin: 2 0.25em;
 		overflow-x: auto;
         }
         orangebox {
@@ -251,3 +251,5 @@
 		line-height: 1.75;
 		overflow-x: auto;
         }
+//		margin: 0 2em; 는 박스 바깥 여백
+//              padding 1 2em; 는 박스 안 여백
