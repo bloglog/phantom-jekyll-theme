@@ -188,20 +188,22 @@
 		text-align: right;
 	}
         redbox {
-                padding: map-get($spacers, 2) map-get($spacers, 3);
+                padding: map-get($spacers, 2) map-get($spacers, 5);
                 background-color: rgba(#ff0000, .1);
                 border: 1px solid #ff0000;
                 border-radius: map-get($base, border-radius);
 		display: block;
+		line-height: 1.75;
 		overflow-x: auto;
         }
         orangebox {
-                padding: map-get($spacers, 2) map-get($spacers, 3);
+                padding: map-get($spacers, 5) map-get($spacers, 3);
                 background-color: rgba(#ffa500, .1);
                 border: 1px solid #ffa500;
                 border-radius: map-get($base, border-radius);
 		display: block;
 		line-height: 1.75;
+		overflow-x: auto;
         }
         yellowbox {
                 padding: map-get($spacers, 2) map-get($spacers, 3);
