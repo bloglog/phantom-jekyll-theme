@@ -194,7 +194,7 @@
                 border-radius: map-get($base, border-radius);
 		display: block;
 		line-height: 1.75;
-		margin: 2 0.25em;
+		margin: 0 0.25 2em;
 		overflow-x: auto;
         }
         orangebox {
@@ -251,5 +251,5 @@
 		line-height: 1.75;
 		overflow-x: auto;
         }
-//		margin: 0 2em; 는 박스 바깥 여백
-//              padding 1 2em; 는 박스 안 여백
+//		margin: 0 0.25em; 박스 바깥 여백
+//		padding: 0.25em 0.65em; 박스 안 여백
