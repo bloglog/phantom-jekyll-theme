@@ -194,7 +194,7 @@
                 border-radius: map-get($base, border-radius);
 		display: block;
 		line-height: 1.75;
-		margin: 2 6em;
+		margin: 0.25 0.25 5em
 		overflow-x: auto;
         }
         orangebox {
@@ -213,6 +213,7 @@
                 border-radius: map-get($base, border-radius);
 		display: block;
 		line-height: 1.75;
+		margin: 0.25 0.25 5em
 		overflow-x: auto;
         }
         greenbox {
