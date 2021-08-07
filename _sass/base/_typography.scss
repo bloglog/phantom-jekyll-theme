@@ -202,43 +202,13 @@ $spacers: (
 	}
         redbox {
                 padding: map-get($spacers, 2) map-get($spacers, 3);
-                background-color: rgba($red, .1);
-                border: 1px solid $red;
-                border-radius: map-get($base, border-radius);
-        }
-        orangebox {
-                padding: map-get($spacers, 2) map-get($spacers, 3);
-                background-color: rgba($orange, .1);
-                border: 1px solid $orange;
-                border-radius: map-get($base, border-radius);
-        }
-        yellowbox {
-                padding: map-get($spacers, 2) map-get($spacers, 3);
-                background-color: rgba($yellow, .1);
-                border: 1px solid $yellow;
+                background-color: rgba(#ff0000, .1);
+                border: 1px solid #ff0000;
                 border-radius: map-get($base, border-radius);
         }
         greenbox {
                 padding: map-get($spacers, 2) map-get($spacers, 3);
-                background-color: rgba($green, .1);
-                border: 1px solid $green;
-                border-radius: map-get($base, border-radius);
-        }
-        bluebox {
-                padding: map-get($spacers, 2) map-get($spacers, 3);
-                background-color: rgba($blue, .1);
-                border: 1px solid $blue;
-                border-radius: map-get($base, border-radius);
-        }
-        purplebox {
-                padding: map-get($spacers, 2) map-get($spacers, 3);
-                background-color: rgba($purple, .1);
-                border: 1px solid $purple;
-                border-radius: map-get($base, border-radius);
-        }
-        blackbox {
-                padding: map-get($spacers, 2) map-get($spacers, 3);
-                background-color: rgba($black, .1);
-                border: 1px solid $black;
+                background-color: rgba(#00ff00, .1);
+                border: 1px solid #00ff00;
                 border-radius: map-get($base, border-radius);
         }
