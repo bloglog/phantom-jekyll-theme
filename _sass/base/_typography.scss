@@ -186,13 +186,14 @@
 	.align-right {
 		text-align: right;
 	}
-        redbox {
+
+        .redbox {
                 padding: map-get($spacers, 2) map-get($spacers, 3);
                 background-color: rgba(#ff0000, .1);
                 border: 1px solid #ff0000;
                 border-radius: map-get($base, border-radius);
         }
-        greenbox {
+        .greenbox {
                 padding: map-get($spacers, 2) map-get($spacers, 3);
                 background-color: rgba(#00ff00, .1);
                 border: 1px solid #00ff00;
