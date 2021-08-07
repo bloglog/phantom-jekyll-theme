@@ -187,31 +187,64 @@
 	.align-right {
 		text-align: right;
 	}
-	redbox {
-		background: _palette(red);
-		border-radius: _size(border-radius);
-		border: solid _size(border-width) _palette(red);
-		font-family: _font(family-fixed);
-		font-size: 0.9em;
-		margin: 0 0.25em;
-		padding: 0.25em 0.65em;
+        redbox {
+                padding: map-get($spacers, 2) map-get($spacers, 3);
+                background-color: rgba(#ff0000, .1);
+                border: 1px solid #ff0000;
+                border-radius: map-get($base, border-radius);
 		display: block;
 		line-height: 1.75;
 		overflow-x: auto;
-	}
-	orangebox {
-		background: _palette(orange);
-		border-radius: _size(border-radius);
-		border: solid _size(border-width) _palette(orange);
-		font-family: _font(family-fixed);
-		font-size: 0.9em;
-		margin: 0 0.25em;
-		padding: 0.25em 0.65em;
-	}
+        }
+        orangebox {
+                padding: map-get($spacers, 2) map-get($spacers, 3);
+                background-color: rgba(#ffa500, .1);
+                border: 1px solid #ffa500;
+                border-radius: map-get($base, border-radius);
+		display: block;
+		line-height: 1.75;
+		overflow-x: auto;
+        }
+        yellowbox {
+                padding: map-get($spacers, 2) map-get($spacers, 3);
+                background-color: rgba(#ffff00, .1);
+                border: 1px solid #ffff00;
+                border-radius: map-get($base, border-radius);
+		display: block;
+		line-height: 1.75;
+		overflow-x: auto;
+        }
         greenbox {
                 padding: map-get($spacers, 2) map-get($spacers, 3);
                 background-color: rgba(#00ff00, .1);
                 border: 1px solid #00ff00;
+                border-radius: map-get($base, border-radius);
+		display: block;
+		line-height: 1.75;
+		overflow-x: auto;
+        }
+        bluebox {
+                padding: map-get($spacers, 2) map-get($spacers, 3);
+                background-color: rgba(#0000ff, .1);
+                border: 1px solid #0000ff;
+                border-radius: map-get($base, border-radius);
+		display: block;
+		line-height: 1.75;
+		overflow-x: auto;
+        }
+        purplebox {
+                padding: map-get($spacers, 2) map-get($spacers, 3);
+                background-color: rgba(#800080, .1);
+                border: 1px solid #800080;
+                border-radius: map-get($base, border-radius);
+		display: block;
+		line-height: 1.75;
+		overflow-x: auto;
+        }
+        blackbox {
+                padding: map-get($spacers, 2) map-get($spacers, 3);
+                background-color: rgba(#000000, .1);
+                border: 1px solid #000000;
                 border-radius: map-get($base, border-radius);
 		display: block;
 		line-height: 1.75;
