@@ -203,7 +203,7 @@
 	  redbox {
 		background: _palette(red);
 		border-radius: _size(border-radius);
-		border: solid _size(border-width) rgba(#ff0000, .1);
+		border: solid _size(border-width) _palette(red);
 		font-family: _font(family-fixed);
 		font-size: 0.9em;
 		margin: 0 0.25em;
@@ -212,7 +212,7 @@
 	  orangebox {
 		background: _palette(orange);
 		border-radius: _size(border-radius);
-		border: solid _size(border-width) rgba(#ffa500, .1);
+		border: solid _size(border-width) _palette(orange);
 		font-family: _font(family-fixed);
 		font-size: 0.9em;
 		margin: 0 0.25em;
