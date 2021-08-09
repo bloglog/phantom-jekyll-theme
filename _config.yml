@@ -35,6 +35,9 @@ home-link-in-menu: yes
 toc:
   selectors: # "h1,h2,h3" (default)
 
-## Mathjax
+# Mathjax
 mathjax: true
 mathjax_autoNumber: true
+
+#languages
+languages: ["en", "ko"]
