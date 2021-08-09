@@ -1,20 +1,20 @@
 Algebra:
   name: Algebra
-  parent-category: example-category
+  parent-category: mathematical-olympiads
   color: 1
 Combinatorics:
   name: Combinatorics
-  parent-category: example-category
+  parent-category: mathematical-olympiads
   color: 3
 Geometry:
   name: Geometry
-  parent-category: example-category
+  parent-category: mathematical-olympiads
   color: 4
 Number-Theory:
   name: Number Theory
-  parent-category: example-category
+  parent-category: mathematical-olympiads
   color: 6
 Contests:
-  name: Contests
-  parent-category: example-category2
+  name: Physics
+  parent-category: science-olympiads
   color: 2
