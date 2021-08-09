@@ -18,12 +18,10 @@ permalink: /mathematical-olympiads/algebra/olym-1a/
 </div>
 <div class="6u$ 12u$(medium)">
 <ul class="actions vertical">
-  <l>
   <li><a href="{{ site.baseurl }}{{ page.permalink}}theorems-and-techniques" class="button fit mid">Theorems and Techniques</a></li>
   <li><a href="{{ site.baseurl }}{{ page.permalink}}exercise-problems" class="button fit mid">Exercise Problems</a></li>
   <li><a href="{{ site.baseurl }}{{ page.permalink}}practice-problems" class="button fit mid">Practice Problems</a></li>
   <li><a href="{{ site.baseurl }}{{ page.permalink}}olym-handouts" class="button fit mid">Olym Handouts</a></li>
-  </l>
 </ul>
 </div>
 </div>
