@@ -60,18 +60,7 @@
 		letter-spacing: _font(letter-spacing-alt);
 
 		a {
-			@include vendor('transition', (
-			'border-bottom-color #{_duration(transition)} ease',
-			'color #{_duration(transition)} ease'
-			));
-			text-decoration: none;
-			color: _palette(fg);
-			border-bottom: dotted 1px transparentize(_palette(fg), 0.5);
-
-			&:hover {
-				border-bottom-color: transparent;
-				color: _palette(accent1) !important;
-			}
+			color: inherit;
 		}
 
 		@include breakpoint(small) {
