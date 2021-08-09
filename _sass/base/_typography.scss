@@ -22,7 +22,7 @@
 		}
 	}
 	textarea {
-		color: _palette(red);
+		color: _palette(red) !important;
 		font-family: _font(family);
 		font-size: 16pt;
 		font-weight: _font(weight);
