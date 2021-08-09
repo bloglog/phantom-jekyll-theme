@@ -9,4 +9,7 @@
     {% if page.mathjax %}
       {% include mathjax_support.html %}
     {% endif %}
+    {% if page.toc %}
+      {% include ToC.html %}
+    {% endif %}
 </head>
