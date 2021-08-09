@@ -30,3 +30,11 @@ markdown: kramdown
 
 # Layout settings
 home-link-in-menu: yes
+
+#Table of Contents
+toc:
+  selectors: # "h1,h2,h3" (default)
+
+## Mathjax
+mathjax: true
+mathjax_autoNumber: true
