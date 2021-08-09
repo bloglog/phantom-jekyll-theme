@@ -60,7 +60,18 @@
 		letter-spacing: _font(letter-spacing-alt);
 
 		a {
-			color: inherit;
+			@include vendor('transition', (
+			'border-bottom-color #{_duration(transition)} ease',
+			'color #{_duration(transition)} ease'
+			));
+			text-decoration: none;
+			color: _palette(fg);
+			border-bottom: dotted 1px transparentize(_palette(fg), 0.5);
+
+			&:hover {
+				border-bottom-color: transparent;
+				color: _palette(accent1) !important;
+			}
 		}
 
 		@include breakpoint(small) {
@@ -80,7 +91,18 @@
 		margin: (_size(element-margin) * 0.5) 0 (_size(element-margin) * 0.5) 0;
 		//text-transform: uppercase;
 		a {
-			color: _palette(fg-bold);
+			@include vendor('transition', (
+			'border-bottom-color #{_duration(transition)} ease',
+			'color #{_duration(transition)} ease'
+			));
+			text-decoration: none;
+			color: _palette(fg);
+			border-bottom: dotted 1px transparentize(_palette(fg), 0.5);
+
+			&:hover {
+				border-bottom-color: transparent;
+				color: _palette(accent1) !important;
+			}
 		}
 	}
 
