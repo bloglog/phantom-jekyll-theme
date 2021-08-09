@@ -23,8 +23,8 @@
 
 // Font.
 	$font: (
-		family:                ('Lora', 'Noto Serif KR', 'Roboto', sans-serif),
-		family-new:            ('Lora', 'Noto Serif KR', 'Roboto', serif),
+		family:                 ('Lora', 'Noto Serif KR', serif),
+		family-new:             ('Roboto', sans-serif),
 		family-fixed:		('Courier New', monospace),
 		weight:			400,
 		weight-bold:		900,
@@ -53,8 +53,8 @@
 		accent6:			#8499e7,
 	);
 $base: (
-  font-family:            (-apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif),
-  font-family-code:       (Menlo, Monaco, Consolas, Andale Mono, lucida console, Courier New, monospace),
+  //font-family:            (-apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif),
+  //font-family-code:       (Menlo, Monaco, Consolas, Andale Mono, lucida console, Courier New, monospace),
 
   font-size-root:         16px,
   font-size-root-sm:      14px,
