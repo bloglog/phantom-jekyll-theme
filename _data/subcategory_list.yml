@@ -14,7 +14,19 @@ Number-Theory:
   name: Number Theory
   parent-category: mathematical-olympiads
   color: 6
-Contests:
+Physics:
   name: Physics
   parent-category: science-olympiads
   color: 2
+Chemistry:
+  name: Chemistry
+  parent-category: science-olympiads
+  color: 5
+LaTeX:
+  name: LaTeX
+  parent-category: science-olympiads
+  color: 2
+Github:
+  name: Github
+  parent-category: computer-and-coding
+  color: 4
