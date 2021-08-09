@@ -146,6 +146,21 @@
 			}
 		}
 	}
+	lw {
+		a {
+			@include vendor('transition', (
+				'border-bottom-color #{_duration(transition)} ease',
+				'color #{_duration(transition)} ease'
+			));
+			text-decoration: none;
+			border-bottom-color: transparent;
+			color: #fff !important;
+
+			&:hover {
+				color: _palette(accent1) !important;
+			}
+		}
+	}
 	ll {
 		a {
 			@include vendor('transition', (
