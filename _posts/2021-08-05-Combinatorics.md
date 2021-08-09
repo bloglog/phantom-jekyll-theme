@@ -2,10 +2,10 @@
 layout: default
 title: Combinatorics | Olymplex
 date: 2021-08-16 12:00:00 -0400
-permalink: /example-category/combinatorics/
+permalink: /mathematical-olympiads/combinatorics/
 ---
 <h1>Combinatorics Content</h1>
-<p><a href="https://example.com">Olymplex</a> > <a href="https://example.com">example-category</a> > <a href="https://example.com">Combinatorics</a><p>
+<p><a href="https://example.com">Olymplex</a> > <a href="https://example.com">Mathematical Olympiads</a> > <a href="https://example.com">Combinatorics</a><p>
 {% for topic in site.data.combinatorics_topic_list %}
 {% capture topic_name %}{{ topic | first }}{% endcapture %}
 {% assign page_topic = site.data.combinatorics_topic_list[topic_name] %}
