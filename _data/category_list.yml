@@ -1,7 +1,6 @@
 Category 1:
   name: Mathematical Olympiads
   description: 
-  color: 6
   subcategory:
     - Algebra
     - Combinatorics
@@ -10,8 +9,6 @@ Category 1:
 Category 2:
   name: Science Olympiads
   description: 
-  color: 3
 Category 3:
   name: Computer and Coding
   description: LaTeX and Github
-  color: 1
