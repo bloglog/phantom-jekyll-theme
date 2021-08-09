@@ -4,7 +4,7 @@ title: Olym 1A | Olymplex
 date: 2021-08-16 12:00:00 -0400
 permalink: /mathematical-olympiads/algebra/olym-1a/practice-problems/
 ---
-<h1>Olym 1A. Equations and Formulae<sup>Practice Problems</sup></h1>
+<h1>Olym 1A. Equations and Formulae<ssup>Practice Problems</ssup></h1>
 <p><a href="https://example.com">Olymplex</a> > <a href="https://example.com">Mathematical Olympiads</a> > <a href="https://example.com">Algebra</a> > <a href="https://example.com">Olym 1A</a> > <a href="https://example.com">Practice Problems</a><p>
 
 <h2>Problem 1. Not a Perfect Square</h2>
