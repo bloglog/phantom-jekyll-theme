@@ -8,7 +8,13 @@ Category 1:
     - Number-Theory
 Category 2:
   name: Science Olympiads
+  subcategory:
+    - Physics
+    - Chemistry
   description: 
 Category 3:
   name: Computer and Coding
   description: LaTeX and Github
+  subcategory:
+    - LaTeX
+    - Github
