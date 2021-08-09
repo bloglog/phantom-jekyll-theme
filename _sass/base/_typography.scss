@@ -29,12 +29,10 @@
 			'color #{_duration(transition)} ease'
 		));
 		text-decoration: none;
-		color: _palette(fg);
-		border-bottom: dotted 1px transparentize(_palette(fg), 0.5);
-
+		color: _palette(accent1) !important;
+		border-bottom-color: transparent;
 		&:hover {
-			border-bottom-color: transparent;
-			color: _palette(accent1) !important;
+			border-bottom: dotted 1px transparentize(_palette(fg), 0.3);
 		}
 	}
 
