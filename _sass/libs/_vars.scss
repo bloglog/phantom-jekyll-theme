@@ -23,7 +23,8 @@
 
 // Font.
 	$font: (
-		family:			('Source Sans Pro', Helvetica, sans-serif),
+		family:			('Lora', serif),
+		family-sans:            ('Lora', sans-serif)
 		family-fixed:		('Courier New', monospace),
 		weight:			400,
 		weight-bold:		900,
@@ -34,19 +35,16 @@
 
 // Palette.
 	$palette: (
-		bg:					#ffffff,
+		bg:				#ffffff,
 		bg-accent:			#333333,
-		bg-alt:				#f6f6f6,
-		fg:				#252525,
-		fg-accent:			#ffffff,
-		fb:                             #000000,
+		bg-alt:				#f6f6f6, 
+		fg:				#585858, //회색
+		fg-accent:			#ffffff, //흰색
+		fd:                             #252525, //어두운 회색
+		fb:                             #000000, //검정색
 		border:				#c9c9c9,
 		border-bg:			rgba(144,144,144,0.075),
 		red:                            #ff0000,
-		orange:                         #ffa500,
-		yellow:                         #ffff00,
-		green:                          #00ff00,
-		blue:                           #0000ff,
 		accent1:			#f2849e,
 		accent2:			#7ecaf6,
 		accent3:			#7bd0c1,
@@ -55,9 +53,6 @@
 		accent6:			#8499e7,
 	);
 $base: (
-  font-family:            (-apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif),
-  font-family-code:       (Menlo, Monaco, Consolas, Andale Mono, lucida console, Courier New, monospace),
-
   font-size-root:         16px,
   font-size-root-sm:      14px,
 
