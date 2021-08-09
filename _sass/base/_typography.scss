@@ -42,40 +42,6 @@
 		color: _palette(fg-bold);
 		font-weight: _font(weight-bold);
 	}
-
-	l {
-		a {
-			@include vendor('transition', (
-				'border-bottom-color #{_duration(transition)} ease',
-				'color #{_duration(transition)} ease'
-			));
-			text-decoration: none;
-			border-bottom-color: transparent;
-			color: _palette(fg) !important;
-
-			&:hover {
-				color: _palette(accent1) !important;
-			}
-		}
-	}
-	ll {
-		a {
-			@include vendor('transition', (
-				'border-bottom-color #{_duration(transition)} ease',
-				'color #{_duration(transition)} ease'
-			));
-			text-decoration: none;
-			border-bottom-color: transparent;
-			color: _palette(fg) !important;
-
-			&:hover {
-				color: _palette(accent1);
-				border-bottom: dotted 1px transparentize(_palette(fg), 0.2) !important;
-			}
-		}
-	}
-			
-
 	em, i {
 		font-style: italic;
 	}
@@ -165,7 +131,37 @@
 			font-size: 1.2em;
 		}
 	}
+	l {
+		a {
+			@include vendor('transition', (
+				'border-bottom-color #{_duration(transition)} ease',
+				'color #{_duration(transition)} ease'
+			));
+			text-decoration: none;
+			border-bottom-color: transparent;
+			color: _palette(fg) !important;
 
+			&:hover {
+				color: _palette(accent1) !important;
+			}
+		}
+	}
+	ll {
+		a {
+			@include vendor('transition', (
+				'border-bottom-color #{_duration(transition)} ease',
+				'color #{_duration(transition)} ease'
+			));
+			text-decoration: none;
+			border-bottom-color: transparent;
+			color: _palette(fg) !important;
+
+			&:hover {
+				color: _palette(accent1);
+				border-bottom: dotted 1px transparentize(_palette(fg), 0.2) !important;
+			}
+		}
+	}
 	sub {
 		font-size: 0.8em;
 		position: relative;
