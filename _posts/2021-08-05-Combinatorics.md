@@ -10,6 +10,6 @@ permalink: /mathematical-olympiads/combinatorics/
 {% capture topic_name %}{{ topic | first }}{% endcapture %}
 {% assign page_topic = site.data.combinatorics_topic_list[topic_name] %}
   <ul class="actions fit big">
-  <li><l><a href="{{ site.baseurl }}{{ page.permalink}}olym-{{ forloop.index | plus:0 }}c" class="button fit big">Olym {{ forloop.index | plus:0 }}C. {{ page_topic.name }}</a></l></li>
+  <li><a href="{{ site.baseurl }}{{ page.permalink}}olym-{{ forloop.index | plus:0 }}c" class="button fit big">Olym {{ forloop.index | plus:0 }}C. {{ page_topic.name }}</a></li>
   </ul>
 {% endfor %}
