@@ -4,7 +4,7 @@ title: Olym 1A | Olymplex
 date: 2021-08-16 12:00:00 -0400
 permalink: /mathematical-olympiads/algebra/olym-1a/exercise-problems/
 ---
-<h1>Olym 1A. Equations and Formulae<ssup>Exercise Problems</ssup></h1>
+<h1>Olym 1A. Equations and Formulae <br> <ssup> - Exercise Problems</ssup></h1>
 <p><a href="https://ramaniumx.github.io/phantom-jekyll-theme/">Olymplex</a> > <a href="https://ramaniumx.github.io/phantom-jekyll-theme/mathematical-olympiads/">Mathematical Olympiads</a> > <a href="https://ramaniumx.github.io/phantom-jekyll-theme/mathematical-olympiads/algebra/">Algebra</a> > <a href="https://ramaniumx.github.io/phantom-jekyll-theme/mathematical-olympiads/algebra/olym-1a/">Olym 1A</a> > <a href="https://ramaniumx.github.io/phantom-jekyll-theme/mathematical-olympiads/algebra/olym-1a/exercise-problems/">Exercise Problems</a><p>
 
 <h2>Problem 1. Not a Perfect Square</h2>
