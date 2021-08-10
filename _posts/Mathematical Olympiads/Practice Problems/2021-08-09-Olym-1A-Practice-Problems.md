@@ -2,6 +2,7 @@
 layout: article
 title: Olym 1A | Olymplex
 date: 2021-08-16 12:00:00 -0400
+mathjax: true
 permalink: /mathematical-olympiads/algebra/olym-1a/practice-problems/
 ---
 <h1>Olym 1A. Equations and Formulae <br> <ssup> - Practice Problems </ssup></h1>
