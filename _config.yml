@@ -40,4 +40,4 @@ mathjax: true
 mathjax_autoNumber: true
 
 plugins:
-  - jekyll-polyglot
+  - jekyll-multiple-languages-plugin
