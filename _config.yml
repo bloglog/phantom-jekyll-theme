@@ -32,14 +32,15 @@ markdown: kramdown
 home-link-in-menu: yes
 
 #Table of Contents
-toc:
-  selectors: # "h1,h2,h3" (default)
+toc: true
+  selectors: "h1, h2, h3" # "h1,h2,h3" (default)
+  toc_sticky: true
 
 # Mathjax
 mathjax: true
 mathjax_autoNumber: true
 
 #languages
-languages: ["en", "ko"]
-default_lang: "en"
+#languages: ["en", "ko"]
+#default_lang: "en"
 ##parallel_localizaion: false
