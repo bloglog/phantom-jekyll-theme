@@ -6,6 +6,6 @@ title: Home | Olymplex
 <header>
 <h1>Welcome to Olymplex!</h1>
 <p> <a href="https://ramaniumx.github.io/phantom-jekyll-theme/">Olymplex</a> </p>
-//</header>
+</header>
 
 {% include tiles.html %}
