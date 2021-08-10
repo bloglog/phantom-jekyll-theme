@@ -39,7 +39,5 @@ toc:
 mathjax: true
 mathjax_autoNumber: true
 
-#languages
-languages: ["en", "ko"]
-default_lang: "en"
-##parallel_localizaion: false
+plugins:
+  - jekyll-polyglot
