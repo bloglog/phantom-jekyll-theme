@@ -2,11 +2,10 @@
 layout: article
 title: Olym 1A | Olymplex
 date: 2021-08-16 12:00:00 -0400
-lang: en
 permalink: /mathematical-olympiads/algebra/olym-1a/
 ---
 <h1>Olym 1A. Equations and Formulae</h1>
-<p><a href="https://example.com">Olymplex</a> > <a href="https://example.com">Mathematical Olympiads</a> > <a href="https://example.com">Algebra</a> > <a href="https://example.com">Olym 1A</a><p>
+<p><a href="https://ramaniumx.github.io/phantom-jekyll-theme/">Olymplex</a> > <a href="https://ramaniumx.github.io/phantom-jekyll-theme/mathematical-olympiads/">Mathematical Olympiads</a> > <a href="https://ramaniumx.github.io/phantom-jekyll-theme/mathematical-olympiads/algebra/">Algebra</a> > <a href="https://ramaniumx.github.io/phantom-jekyll-theme/mathematical-olympiads/algebra/olym-1a/">Olym 1A</a><p>
 <div class="row">
 <div class="6u 12u$(medium)">
 <ul>
