@@ -2,7 +2,6 @@
 layout: article
 title: Olym 1A | Olymplex
 date: 2021-08-16 12:00:00 -0400
-lang: en
 permalink: /mathematical-olympiads/algebra/olym-1a/exercise-problems/
 ---
 <h1>Olym 1A. Equations and Formulae<ssup>Exercise Problems</ssup></h1>
