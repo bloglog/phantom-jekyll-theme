@@ -20,20 +20,20 @@ It suffices to prove that there are three integers $n \le a<b<c \le 2n$ such tha
 
 To accomplish this, we will set $a = 2i^2 - 4i, b= 2i^2+1, c= 2i^2+4i$ for some integer $i$. Then it follows that $a+b = (2i-1)^2, a+c=(2i)^2, b+c=(2i+1)^2,$ so we only need
 
-\[ 2i^2-4i \ge n ,2i^2+4i \le 2n \iff (i-1)^2 \ge \frac{n}{2}+1 , (i+1)^2 \le n+1 \]
+$$2i^2-4i \ge n ,2i^2+4i \le 2n \iff (i-1)^2 \ge \frac{n}{2}+1 , (i+1)^2 \le n+1$$
 
 for some integer $i$. This is equivalent to $\lfloor \sqrt{n+1} \rfloor - \lceil \sqrt{\frac{n}{2}+1} \rceil \ge 2$, which can be verified easily.
 
 ## Problem 2. New n-var ineq
 
 <bluebox>Show that the inequality
-\[ \sum\_{i=1}^{n} \sum\_{j=1}^{n} \sqrt{ \lvert x_i - x_j \rvert} \le \sum\_{i=1}^{n} \sum\_{j=1}^{n} \sqrt{\lvert x_i + x_j \rvert} \]
+$$ \sum\_{i=1}^{n} \sum\_{j=1}^{n} \sqrt{ \lvert x_i - x_j \rvert} \le \sum\_{i=1}^{n} \sum\_{j=1}^{n} \sqrt{\lvert x_i + x_j \rvert} $$
 holds for all reals $x_1, x_2, \cdots, x_n.$ </bluebox>
 
 <b>Solution. </b> We will prove the problem with strong induction on $n$. The base cases in which $n \le 2$ are trivial.
 
 <greenbox>**Lemma.** For any real $x \neq 0$ and $0 < \epsilon < 2\|x\|,$ we have
-\[ \sqrt{\lvert x-\epsilon/2 \rvert}+\sqrt{\lvert x+\epsilon/2 \rvert} < 2\sqrt{\lvert x \rvert}. \]</greenbox>
+$$ \sqrt{\lvert x-\epsilon/2 \rvert}+\sqrt{\lvert x+\epsilon/2 \rvert} < 2\sqrt{\lvert x \rvert}. $$</greenbox>
 
 <i>Proof. </i> This directly follows from Jensen as both $\sqrt{x}$ and $\sqrt{-x}$ are concave on their domains. $\square$
 
@@ -43,15 +43,15 @@ Let $f(C)$ be that minimum, and suppose $x_i+x_j+C \neq 0$ for every indices $1 
 
 By the lemma, for all sufficiently small $\epsilon$ we have
 
-\[ \sum\_{i, j} \sqrt{\lvert x_i + x_j + C + \epsilon \rvert} + \sum\_{i, j} \sqrt{\lvert x_i + x_j + C - \epsilon \rvert} < \sum\_{i, j} 2\sqrt{\lvert x_i+x_j+C \rvert}, \]
+$$ \sum\_{i, j} \sqrt{\lvert x_i + x_j + C + \epsilon \rvert} + \sum\_{i, j} \sqrt{\lvert x_i + x_j + C - \epsilon \rvert} < \sum\_{i, j} 2\sqrt{\lvert x_i+x_j+C \rvert}, $$
 
 so $\min \\{f(C-\epsilon), f(C+\epsilon)\\} < f(C).$ This contradicts the minimality of $f(C).$ Hence there are indices $i, j$ such that $x_i+x_j+C=0.$
 
 Now by the translation $x_j \leftarrow x_j + \frac{C}{2}$ we have $x_i+x_j=0$ for some $i, j.$ WLOG assume $i=j=n$ or $i=n-1, j=n,$ then the inequality reduces to the following two inequalities, which holds by the induction hypothesis.
 
-\[ \sum\_{i=1}^{n-1} \sum\_{j=1}^{n-1} \sqrt{ \lvert x_i - x_j \rvert} \le \sum\_{i=1}^{n-1} \sum\_{j=1}^{n-1} \sqrt{\lvert x_i + x_j \rvert} \]
+$$ \sum\_{i=1}^{n-1} \sum\_{j=1}^{n-1} \sqrt{ \lvert x_i - x_j \rvert} \le \sum\_{i=1}^{n-1} \sum\_{j=1}^{n-1} \sqrt{\lvert x_i + x_j \rvert} $$
 
-\[ \sum\_{i=1}^{n-2} \sum\_{j=1}^{n-2} \sqrt{ \lvert x_i - x_j \rvert} \le \sum\_{i=1}^{n-2} \sum\_{j=1}^{n-2} \sqrt{\lvert x_i + x_j \rvert} \]
+$$ \sum\_{i=1}^{n-2} \sum\_{j=1}^{n-2} \sqrt{ \lvert x_i - x_j \rvert} \le \sum\_{i=1}^{n-2} \sum\_{j=1}^{n-2} \sqrt{\lvert x_i + x_j \rvert} $$
 
 Note that equality holds iff the $x_i$s are symmetric with respect to the origin, i.e. the multiset $\\{x_1, x_2, \cdots, x_n \\}$ can be partitioned into groups of size at most two so that each group has sum $0.$
 
@@ -67,11 +67,11 @@ Note that equality holds iff the $x_i$s are symmetric with respect to the origin
 
 <i>Step 1. </i> Let $D'$ denote the isogonal conjugate of $D$ with respect to $\triangle ABC.$ Then the given angle condition implies
 
-\[ \angle FDB' = \angle DBC = \angle FDD', \]
+$$ \angle FDB' = \angle DBC = \angle FDD', $$
 
 so $(BFDD'),(DD'CE)$ are cyclic. Hence by PoP,
 
-\[ AF\times AB= AD\times AD'= AE\times AC, \]
+$$ AF\times AB= AD\times AD'= AE\times AC, $$
 
 we obtain that $(BCEF)$ is also cyclic.
 
@@ -81,23 +81,23 @@ Now we recall a well-known lemma used in several IMO/ISLs:
 
 _Step 2._ By the above lemma, it follows that $D$ and $D'$ are isogonal conjugates with respect to $\square BCEF$. Hence
 
-\[ \angle BDF = \angle BD'F = \pi - \angle CD'E = \angle D'EC + \angle D'CD = \angle DEF + \angle DBC, \]
+$$ \angle BDF = \angle BD'F = \pi - \angle CD'E = \angle D'EC + \angle D'CD = \angle DEF + \angle DBC, $$
 
 which implies that $\odot(DEF)$ and $\odot(DBC)$ are tangent to each other. By the radical axis theorem on $\odot(AEF), \odot(DEF), \odot(DBC)$, the point $T := BC \cap EF$ satisfies $TD^2 = TB \times TC$.
 
 _Step 3._ Let $P$ be the intersection of $\odot(AEF)$ and $\odot(ABC)$. Then $\triangle PBC \sim \triangle PFE$ by the Miquel point property, and
 
-\[ \angle PBX=\angle XBC -\angle PBC=\angle ACB -\angle PFE = \angle AFE- \angle PFE =\angle AFP =\angle XEP. \]
+$$ \angle PBX=\angle XBC -\angle PBC=\angle ACB -\angle PFE = \angle AFE- \angle PFE =\angle AFP =\angle XEP. $$
 
 Hence $(XPEB)$ are cyclic.
 
 _Step 4._ Let $PB$ and $AC$ intersect at $I$ and let $\odot(XDE)$ and $\odot(ADC)$ meet again at $G$. Then by PoP
 
-\[ XI\times IE=PI\times IB =AI\times IC, \]
+$$ XI\times IE=PI\times IB =AI\times IC, $$
 
 so $I$ lies on the radical axis of $\odot(XDE)$ and $\odot(ADC)$ which is $DG.$ Hence by PoP again, we have
 
-\[ BI\times IP=AI\times IC =DI\times IG \]
+$$ BI\times IP=AI\times IC =DI\times IG $$
 
 so $(BDPG)$ are cyclic.
 
