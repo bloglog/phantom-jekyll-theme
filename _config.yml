@@ -33,7 +33,7 @@ home-link-in-menu: yes
 
 #Table of Contents
 toc: true
-  selectors: "h1,h2,h3" # "h1,h2,h3" (default)
+  selectors: # "h1,h2,h3" (default)
   toc_sticky: true
 
 # Mathjax
