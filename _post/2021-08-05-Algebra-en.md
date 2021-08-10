@@ -2,6 +2,7 @@
 layout: default
 title: Algebra | Olymplex
 date: 2021-08-16 12:00:00 -0400
+lang: en
 permalink: /mathematical-olympiads/algebra/
 ---
 <h1>Algebra Content</h1>
