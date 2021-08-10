@@ -2,11 +2,10 @@
 layout: article
 title: Olym 1A | Olymplex
 date: 2021-08-16 12:00:00 -0400
-lang: en
 permalink: /mathematical-olympiads/algebra/olym-1a/practice-problems/
 ---
 <h1>Olym 1A. Equations and Formulae<ssup>Practice Problems</ssup></h1>
-<p><a href="https://example.com">Olymplex</a> > <a href="https://example.com">Mathematical Olympiads</a> > <a href="https://example.com">Algebra</a> > <a href="https://example.com">Olym 1A</a> > <a href="https://example.com">Practice Problems</a><p>
+<p><a href="https://ramaniumx.github.io/phantom-jekyll-theme/">Olymplex</a> > <a href="https://ramaniumx.github.io/phantom-jekyll-theme/mathematical-olympiads/">Mathematical Olympiads</a> > <a href="https://ramaniumx.github.io/phantom-jekyll-theme/mathematical-olympiads/algebra/">Algebra</a> > <a href="https://ramaniumx.github.io/phantom-jekyll-theme/mathematical-olympiads/algebra/olym-1a/">Olym 1A</a> > <a href="https://ramaniumx.github.io/phantom-jekyll-theme/mathematical-olympiads/algebra/olym-1a/practice-problems/">Practice Problems</a><p>
 
 <h2>Problem 1. Not a Perfect Square</h2>
 text here. text here. text here. text here. text here. text here. 
